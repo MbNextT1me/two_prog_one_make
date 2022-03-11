@@ -1,9 +1,9 @@
 run: first second
 
 first:
-	g++ first.cpp -o first.exe
-	first.exe $(n) $(filename)
+	g++ first.cpp -o first
+	first $(n) $(filename)
 
 second:
-	g++ second.cpp -o second.exe
-	second.exe $(filename)
+	g++ second.cpp -o second
+	second $(filename)
